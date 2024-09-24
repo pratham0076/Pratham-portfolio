@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #cbc0c0;
+    color: #d89292;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #8f33f0;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #333;
+}
+
+
+/* Projects Section */
+.projects-section {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.projects-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.project p {
+    font-size: 1.1em;
+}
+
+
+/* Qualifications Section */
+.qualifications-section {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.qualifications-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.qualifications-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.qualifications-section table, 
+.qualifications-section th, 
+.qualifications-section td {
+    border: 1px solid #333;
+}
+
+.qualifications-section th, 
+.qualifications-section td {
+    padding: 10px;
+    text-align: left;
+}
+
+.qualifications-section th {
+    background: #333;
+    color: #fff;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
